@@ -1,0 +1,815 @@
+ /* Body */
+ body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(251, 231, 217);
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(237, 137, 65); /* Change as per your design */
+}
+
+.navbar-brand {
+  color: #451b04; /* Change as per your design */
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  color: #c6561a; /* Change as per your design */
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change as per your design */
+}
+
+/* Toggler Icon */
+.navbar-toggler {
+  border-color: #ffffff; /* Change as per your design */
+}
+
+.navbar-toggler-icon {
+  color: #783d03; /* Change as per your design */
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+}
+
+/* Slide images */
+.carousel-item img {
+  height: 500px;
+  width: 100%;
+}
+
+/* Caption */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-caption h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #a40a0a;
+  margin-bottom: 10px;
+}
+
+.carousel-caption h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.carousel-caption h2,
+.carousel-caption h1,
+.carousel-caption h3 {
+  margin: 0;
+}
+
+/* Control icons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: #333333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 18px;
+  }
+}
+ /* Container */
+.container2 {
+  padding: 20px;
+}
+
+/* About Us Section */
+.about-us {
+  text-align: center;
+}
+
+.about-us h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #a40a0a;
+}
+
+.about-us h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #783d03;
+}
+
+.about-us h4 {
+  font-size: 20px;
+}
+
+.about-us h6 {
+  font-size: 22px;
+  
+}
+
+.about-us img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-us li {
+  margin-bottom: 10px;
+}
+
+.about-us .btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  }
+
+
+/* Equal height for text and image columns */
+.about-us .col-md-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-us h3 {
+    font-size: 20px;
+  }
+  
+  .about-us h1 {
+    font-size: 35px;
+  }
+  
+  .about-us img {
+    margin-top: 20px; /* Adjust spacing between image and text for smaller screens */
+  }
+}
+/* Add this CSS for responsiveness */
+@media (max-width: 768px) {
+  .container2 {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Add this CSS for styling */
+.container2 {
+  padding: 20px;
+}
+
+.services h3, .services h1 {
+  margin-bottom: 20px;
+}
+
+.service-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #8e0505;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(98, 25, 3, 0.836);
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.service-item:hover {
+  background-color: #e8b5aa; /* Change background color on hover */
+  box-shadow: 0 0 20px rgba(98, 25, 3, 0.936); /* Change box shadow on hover */
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .service-title {
+      font-size: 1.5rem; /* Adjust font size for small screens */
+  }
+  .service-subtitle {
+    font-size: 2rem; /* Adjust font size for small screens */
+  }
+}
+/* Add this CSS for styling */
+.services {
+  margin-bottom: 30px;
+}
+
+.service-title {
+  font-size: 2rem;
+  color: #a40a0a;
+  margin-bottom: 10px;
+}
+
+.service-subtitle {
+  font-size:  3rem;
+  color: #783d03;
+  margin-bottom: 10px;
+}
+
+
+/* Container Styling */
+/* Container Styling */
+.container3 {
+ 
+  background-image: url('/img/bg.jpg'); /* Add your background image URL here */
+  background-size: cover;
+  background-position: center;
+  padding: 20px; /* Adjust vertical padding */
+  height: 400px;
+  
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Search Box Styling */
+.search-box {
+  margin-top: 20px; /* Add margin for spacing */
+  width: 300px; /* Adjust width for the search box */
+}
+
+
+/* Text Styling */
+.offer-heading {
+  font-size: 4vw; /* Use viewport width (vw) units for responsive font size */
+  color: #e46b08;
+  margin-top: 20px; /* Add some spacing */
+}
+
+.offer-subheading {
+  font-size: 2.5vw; /* Use viewport width (vw) units for responsive font size */
+  color: #eccbab;
+  margin-bottom: 10px; /* Add some spacing */
+}
+
+.offer-details {
+  font-size: 2vw; /* Use viewport width (vw) units for responsive font size */
+  color: #d5ccc3;
+  margin-top: 10px; /* Add more spacing */
+}
+
+/* Search Box Styling */
+.search-box {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+
+/* Signup Button Styling */
+.signup-btn {
+  margin-top: 10px;
+  padding: 8px 10px; /* Adjust padding for the button */
+  font-size: 14px; /* Adjust font size for the button */
+  border: 2px solid #a40a0a; /* Change border color to match offer heading */
+  border-radius: 5px;
+  background-color: #a40a0a; /* Button background color */
+  color: #fff; /* Button text color */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.signup-btn:hover {
+  background-color: #fff; /* Change background color on hover */
+  color: #a40a0a; /* Change text color on hover */
+}
+
+
+
+
+
+.container4 {
+  padding: 0 15px;
+}
+
+.menu-box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-box:hover {
+  background-color:
+  rgba(120, 35, 2, 0.77);
+  color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.menu-img {
+  max-width: 70px; /* Smaller image size */
+  height: auto;
+}
+
+.menu-price {
+  position: absolute;
+  top: 2px;
+  left: 60px; /* Position to overlap on the left side of the image */
+  background-color: #f38508; /* Change the background color as needed */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 1; /* Ensures it appears above the image */
+  box-shadow: 0 2px 5px rgba(90, 42, 13, 0.2); /* Optional: adds a slight shadow for better visibility */
+}
+
+.position-relative {
+  position: relative; /* Ensure the parent div is positioned relative for the absolute positioning of the price */
+}
+.menu-item h1{
+  font-size: 4vw; /* Use viewport width (vw) units for responsive font size */
+  color: rgba(117, 36, 3, 0.768);
+  margin-top: 20px; /* Add some spacing */
+}
+.menu-item h5{
+  font-size: 2.5vw; /* Use viewport width (vw) units for responsive font size */
+  color: #a40a0a;
+  margin-bottom: 10px; /* Add some spacing */
+  }
+  @media (max-width: 767px) {
+    .menu-item h5 {
+        font-size: 20px;
+    }
+
+    .menu-item h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .container4 {
+        padding: 15px;
+    }
+}
+
+
+
+
+  .container-5 {
+    background-image: url('/img/bggg.jpg'); /* Background image URL */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 50px 15px; /* Add padding top and bottom, and adjust sides */
+  }
+  
+  .container-5 .row {
+    justify-content: center; /* Center the row horizontally */
+  }
+  
+  .container-5 .col-md-4 {
+    width: 40%; /* Increase the width of the columns */
+  }
+  
+  
+  .container-5 h3{
+    font-size: 40px;
+    color: white;
+
+  }
+
+
+
+  .container-5 h6 {
+    color: #fff; /* Text color */
+  }
+
+  .container-5 h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(112, 5, 5);
+
+  }
+  .container-5 {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.form {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 5px;
+}
+.form h2 {
+    margin-bottom: 20px;
+}
+.form .btn {
+    display: block;
+    width: 100%;
+}
+@media (max-width: 767.98px) {
+    .container-5 .col-md-4 {
+        padding: 10px;
+    }
+    .form h2 {
+        font-size: 1.5rem;
+    }
+    .form .btn {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    h6 {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+}
+
+
+
+
+.container3 {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.offer-heading {
+  font-size: 3rem;
+  color: #ff5722;
+}
+.offer-subheading {
+  font-size: 2rem;
+  color: #ff9800;
+}
+.offer-details {
+  font-size: 1.5rem;
+  color: #757575;
+}
+.search-box {
+  border-radius: 0;
+}
+.signup-btn {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+}
+@media (max-width: 767.98px) {
+  .offer-heading {
+      font-size: 2rem;
+  }
+  .offer-subheading {
+      font-size: 1.5rem;
+  }
+  .offer-details {
+      font-size: 1rem;
+  }
+  .search-box {
+      font-size: 1rem;
+  }
+  .signup-btn {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .offer-heading {
+      font-size: 2.5rem;
+  }
+  .offer-subheading {
+      font-size: 1.75rem;
+  }
+  .offer-details {
+      font-size: 1.25rem;
+  }
+  .search-box {
+      font-size: 1.25rem;
+  }
+  .signup-btn {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+  }
+}
+
+
+  
+  .container-5 .form {
+    background-color: rgba(126, 14, 14, 0.573); /* Background color with opacity */
+    padding: 30px; /* Add padding inside form */
+    border-radius: 10px; /* Add border radius */
+  }
+  
+  .container-5 .form-control {
+    margin-bottom: 20px; /* Add margin between form controls */
+  }
+  
+  @media (max-width: 768px) {
+    .container-5 .col-md-4 {
+      width: 100%; /* Make columns full width on small screens */
+      margin-bottom: 20px; /* Add margin at the bottom for better spacing */
+    }
+  }
+  .testimonial-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .testimonial-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+  .testimonial-item img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .testimonial-item {
+    text-align: center;
+}
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+.testimonial-item {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+  }
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+  }
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-prev,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-left { 
+      transform: translateX(0);
+  }
+}
+@media (max-width: 991.98px) {
+  .section-title h3 {
+    font-size: 1.5rem; /* Adjust font size for small and medium screens */
+  }
+  
+  .section-title h1 {
+    font-size: 2.5rem; /* Adjust font size for small and medium screens */
+  }
+}
+.section-title {
+  color: #970404cd; /* Set color for the section title */
+}
+
+.text-primary {
+  color: #753304e0; /* Set color for text with primary emphasis */
+}
+
+.text-uppercase {
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* Additional styles for different elements */
+.display-4 {
+  color: #753304e0; /* Set color for display-4 headings */
+}
+/* Footer */
+.footer {
+  background-image: url('/img/bg.jpg'); /* Background image URL */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  padding: 50px 15px; /* Add padding top and bottom, and adjust sides */
+  
+}
+
+.footer p, .footer h4 {
+  color: #fff; /* Set text color for paragraphs and headings */
+
+}
+
+.footer a {
+  color: #fff; /* Set text color for links */
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none; /* Hide by default */
+  background-color: #007bff; /* Set background color for the button */
+  color: #fff; /* Set text color for the button */
+  border: none;
+  border-radius: 50%; /* Make button round */
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Show the button when the user scrolls down 20px from the top of the document */
+@media screen and (max-width: 767.98px) {
+.footer {
+  padding: 20px 0; /* Adjust padding for small screens */
+}
+
+.back-to-top {
+  display: block;
+}
+}
+
+/* Global box-sizing to avoid unexpected width issues */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ABOUT US Section Styling */
+#front {
+  background-image: url('/img/cup6.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fixed background for parallax effect */
+  color: white; /* Text color */
+  padding: 100px 15px; /* Top and bottom padding with horizontal padding for small screens */
+  text-align: center; /* Center text */
+  position: relative; /* Position relative for overlay */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  width: 100%; /* Ensure full width */
+  
+}
+
+/* Dark overlay */
+#front::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with opacity */
+  z-index: 1; /* Place below the text */
+}
+
+/* Position row elements above the overlay */
+#front .row {
+  position: relative; /* Position relative for z-index */
+  z-index: 2; /* Place above the overlay */
+  margin: 0; /* Remove any margin that could cause overflow */
+}
+
+/* Title Styling */
+#front .about-title {
+  font-size: 3rem; /* Large font size for the title */
+  text-transform: uppercase; /* Uppercase letters */
+  letter-spacing: 2px; /* Spacing between letters */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Breadcrumb Styling */
+#front .about-breadcrumb {
+  font-size: 1.25rem; /* Medium font size for the breadcrumb */
+  letter-spacing: 1px; /* Spacing between letters */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  #front {
+    padding: 80px 15px; /* Reduce padding on medium screens */
+  }
+
+  #front .about-title {
+    font-size: 2.5rem; /* Smaller font size for medium screens */
+  }
+
+  #front .about-breadcrumb {
+    font-size: 1rem; /* Smaller font size for medium screens */
+  }
+}
+
+@media (max-width: 767.98px) {
+  #front {
+    padding: 60px 15px; /* Reduce padding on small screens */
+  }
+
+  #front .about-title {
+    font-size: 2rem; /* Smaller font size for small screens */
+  }
+
+  #front .about-breadcrumb {
+    font-size: 0.875rem; /* Smaller font size for small screens */
+  }
+}
+   
+
+#contact h3 {
+  color: #bb1212;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#contact h1 {
+  color: #5d2a06;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info i {
+  color: #0f276b;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #e01313;
+}
+
+form .form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+form .btn {
+  border-radius: 0;
+  background-color: #692e09;
+  border: none;
+  width: 150px;
+
+}
+
+form .btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 767px) {
+  #map iframe {
+      height: 300px;
+  }
+}
+
